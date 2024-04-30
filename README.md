@@ -42,7 +42,10 @@ let "randomIdentifier=$RANDOM"
 
 az redis create --location brazilsouth --name state$randomIdentifier --resource-group redis-state --sku Basic --vm-size c0
 ```
-Create Clusters
+
+## Get Credentials
+In Azure Portal, get the credentials for the created Azure Cache for Redis
+![Environment](./media/redis01.png)
 
 # How to run this sample
 

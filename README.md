@@ -11,4 +11,4 @@ Tags: Powershell, Azure, Inventory, Excel Report, Customer Engineer
 ![GitHub top language](https://img.shields.io/github/languages/top/microsoft/ARI)
 
 <br/>
-#ASP.NET Session State Provider for Azure Cache for Redis
+# ASP.NET Session State Provider for Azure Cache for Redis

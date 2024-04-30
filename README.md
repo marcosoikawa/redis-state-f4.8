@@ -13,5 +13,4 @@ Tags: Azure, .NET Framework 4.8
 ![GitHub last commit](https://img.shields.io/github/last-commit/marcosoikawa/redis-state-f4.8)
 ![GitHub top language](https://img.shields.io/github/languages/top/marcosoikawa/redis-state-f4.8)
 
-<br/>
 # ASP.NET Session State Provider for Azure Cache for Redis

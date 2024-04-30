@@ -38,7 +38,7 @@ Create Azure Cache for Redis
 
 ```bash
 
-let "randomIdentifier=$RANDOM
+let "randomIdentifier=$RANDOM"
 
 az redis create --location brazilsouth --name state$randomIdentifier --resource-group redis-state --sku Basic --vm-size c0
 ```

@@ -44,8 +44,18 @@ az redis create --location brazilsouth --name state$randomIdentifier --resource-
 ```
 
 ## Get Credentials
-In Azure Portal, get the credentials for the created Azure Cache for Redis
+In Azure Portal, in Autorization section, get the credentials for the created Azure Cache for Redis
 ![Environment](./media/redis01.png)
+
+## Setup Code with Azure Cache for Redis
+Create a file named connections.config in the project and save the folowing xml:
+
+```xml
+<connectionStrings>
+  <add name="OikawaRedisConnString" connectionString="[yourredis].redis.cache.windows.net:6380,password=[your password],ssl=True,abortConnect=False"  />
+</connectionStrings>
+
+```
 
 # How to run this sample
 

@@ -65,16 +65,25 @@ Hit F5, or deploy in some web hosting, like Azure App Service.
 ## Verify the cache
 
 1. Click on tab Verify Cache to see that no Session and therefore, no cache hit
+
 ![Environment](./media/redis03.png)
+
 2. Click on tab Load Cache to load Sessions
+
 ![Environment](./media/redis04.png)
-3.Click on tab Verify to see the cache hit
+
+3. Click on tab Verify to see the cache hit
+
 ![Environment](./media/redis05.png)
+
 4. Click on button Add $100 to modify product session, and therefore the cache
+
 ![Environment](./media/redis06.png)
+
 
 ## Verify the cache on Azure Redis
 You can see the cache in a tool like Redis Insight, to see the cache working
+
 ![Environment](./media/redis07.png)
 
 ## Next steps

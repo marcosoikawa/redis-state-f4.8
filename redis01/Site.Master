@@ -58,7 +58,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - [Lab] Session State Provider for Azure Cache for Redis </p>
+                <p>&copy; <%: DateTime.Now.Year %> - [Lab] Session State Provider for Azure Cache for Redis! </p>
             </footer>
         </div>
     </form>

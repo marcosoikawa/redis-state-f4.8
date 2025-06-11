@@ -44,7 +44,7 @@ az redis create --location brazilsouth --name state$randomIdentifier --resource-
 ```
 
 ## Get Credentials
-In Azure Portal, in Autorization section, get the credentials for the created Azure Cache for Redis
+In Azure Portal, in autorization section, get the credentials for the created Azure Cache for Redis
 ![Environment](./media/redis01.png)
 
 ## Setup Code with Azure Cache for Redis

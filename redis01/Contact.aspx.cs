@@ -10,8 +10,16 @@ using System.Web.UI.WebControls;
 
 namespace redis01
 {
+    /// <summary>
+    /// Contact page that demonstrates verifying and modifying cached data
+    /// </summary>
     public partial class Contact : Page
     {
+        /// <summary>
+        /// Handles the Page_Load event, verifies cache hit and displays product information
+        /// </summary>
+        /// <param name="sender">The source of the event</param>
+        /// <param name="e">The event data</param>
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -29,6 +37,11 @@ namespace redis01
             }
         }       
 
+        /// <summary>
+        /// Handles the modify cache button click event to increase product price by $100
+        /// </summary>
+        /// <param name="sender">The source of the event</param>
+        /// <param name="e">The event data</param>
         protected void btnModifyCache_Click(object sender, EventArgs e)
         {
             JavaScriptSerializer ser = new JavaScriptSerializer();

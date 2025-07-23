@@ -17,8 +17,16 @@ using RestSharp.Serializers;
 
 namespace redis01
 {
+    /// <summary>
+    /// Default page for the Redis state demonstration application
+    /// </summary>
     public partial class _Default : Page
     {
+        /// <summary>
+        /// Handles the Page_Load event for the default page
+        /// </summary>
+        /// <param name="sender">The source of the event</param>
+        /// <param name="e">The event data</param>
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -44,19 +52,51 @@ namespace redis01
         //}
 
             }
+    /// <summary>
+    /// Represents a product in the application with its associated properties
+    /// </summary>
     public class Produto
     {
+        /// <summary>
+        /// Gets or sets the unique identifier for the product
+        /// </summary>
         public int ID { get; set; }
+        
+        /// <summary>
+        /// Gets or sets the name of the product
+        /// </summary>
         public string Name { get; set; }
+        
+        /// <summary>
+        /// Gets or sets the category identifier for the product
+        /// </summary>
         public int CategoryID { get; set; }
+        
+        /// <summary>
+        /// Gets or sets the category object associated with the product
+        /// </summary>
         public Category Category { get; set; }
+        
+        /// <summary>
+        /// Gets or sets the price of the product
+        /// </summary>
         public decimal Price { get; set; }
 
     }
 
+    /// <summary>
+    /// Represents a product category with its properties
+    /// </summary>
     public class Category
     {
+        /// <summary>
+        /// Gets or sets the unique identifier for the category
+        /// </summary>
         public int ID { get; set; }
+        
+        /// <summary>
+        /// Gets or sets the description of the category
+        /// </summary>
         public string descricao { get; set; }
 
     }

@@ -7,8 +7,15 @@ using System.Web.UI;
 
 namespace redis01
 {
+    /// <summary>
+    /// Configuration class for registering client-side script and CSS bundles
+    /// </summary>
     public class BundleConfig
     {
+        /// <summary>
+        /// Registers script and style bundles for the application to optimize client-side resource loading
+        /// </summary>
+        /// <param name="bundles">The bundle collection to register bundles with</param>
         // For more information on Bundling, visit https://go.microsoft.com/fwlink/?LinkID=303951
         public static void RegisterBundles(BundleCollection bundles)
         {

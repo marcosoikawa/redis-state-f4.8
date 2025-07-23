@@ -9,14 +9,31 @@ using Microsoft.AspNet.FriendlyUrls.Resolvers;
 
 namespace redis01
 {
+    /// <summary>
+    /// User control that provides functionality to switch between desktop and mobile views
+    /// </summary>
     public partial class ViewSwitcher : System.Web.UI.UserControl
     {
+        /// <summary>
+        /// Gets the current view type (Mobile or Desktop)
+        /// </summary>
         protected string CurrentView { get; private set; }
 
+        /// <summary>
+        /// Gets the alternate view type that can be switched to
+        /// </summary>
         protected string AlternateView { get; private set; }
 
+        /// <summary>
+        /// Gets the URL used to switch to the alternate view
+        /// </summary>
         protected string SwitchUrl { get; private set; }
 
+        /// <summary>
+        /// Handles the Page_Load event and configures view switching based on current device type
+        /// </summary>
+        /// <param name="sender">The source of the event</param>
+        /// <param name="e">The event data</param>
         protected void Page_Load(object sender, EventArgs e)
         {
             // Determine current view

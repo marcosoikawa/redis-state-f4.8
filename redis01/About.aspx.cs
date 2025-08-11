@@ -8,8 +8,14 @@ using System.Web.UI.WebControls;
 
 namespace redis01
 {
+    /// <summary>
+    /// About page that demonstrates loading cache with sample data
+    /// </summary>
     public partial class About : Page
     {
+        /// <summary>
+        /// Loads sample data into the session cache including user details and product information
+        /// </summary>
         public void LoadCache()
         {
             //Laod Cache
@@ -24,6 +30,11 @@ namespace redis01
             prod = ser.Deserialize<Produto>((string)Session["Produto"]);
         }
         
+        /// <summary>
+        /// Handles the Page_Load event for the About page and initializes the cache
+        /// </summary>
+        /// <param name="sender">The source of the event</param>
+        /// <param name="e">The event data</param>
         protected void Page_Load(object sender, EventArgs e)
         {
             LoadCache();

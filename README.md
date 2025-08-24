@@ -17,7 +17,7 @@ Tags: Azure, .NET Framework 4.8
 
 ## Scenario
 
-The main objective of this LAB is do demonstrate the state service of .NET Framework 4.8 on Azure Cache for Redis as a provider. The main document is https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-aspnet-session-state-provider
+The main objective of this LAB is to demonstrate the state service of .NET Framework 4.8 on Azure Cache for Redis as a provider. The main document is https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/cache-aspnet-session-state-provider
 ASP.NET provides some providers for the Session State, and Azure Cache for Redis is one of them.
 
 # Prerequisites
